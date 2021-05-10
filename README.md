@@ -11,7 +11,7 @@ Thanks for checking out this front-end coding challenge.
 ### Links
 
 - Solution URL: [Solution](https://github.com/Tkalex32/fementor-profilecard)
-- Live Site URL: [Live Site](https://fementor-3columns.netlify.app/)
+- Live Site URL: [Live Site](https://fementor-profilecard.netlify.app/)
 
 ## My process
 
