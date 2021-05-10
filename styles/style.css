@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+/* Body Copy - Font size (name and stats): 18px */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.6rem;
+  color: #2d3248;
+  background: #19a2ae;
+  background-image: url(./../images/bg-pattern-top.svg), url(./../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 55vw bottom 45vh, left 55vw top 45vh;
+  height: 100vh;
+  border-style: none;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  background-image: url(./../images/bg-pattern-card.svg);
+  background-position: top left;
+  background-repeat: repeat-x;
+  width: 35rem;
+  height: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 1.5rem;
+  position: relative;
+}
+
+.card-image {
+  border-radius: 50%;
+  border: 0.5rem solid white;
+  position: absolute;
+  top: 9.3rem;
+  left: 12.5rem;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.card-text {
+  text-align: center;
+  padding: 3rem 0 1rem;
+  border-bottom: 0.1rem solid rgba(150, 150, 150, 0.4);
+  width: 100%;
+}
+
+.card-footer {
+  padding: 1rem 0 0;
+  width: 100%;
+}
+
+.name,
+.number {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.age,
+.city,
+.text {
+  color: #6a6f81;
+}
+
+.age {
+  font-size: 1.8rem;
+  padding-left: 1rem;
+}
+
+.city {
+  line-height: 3;
+}
+
+.text {
+  font-size: 1.35rem;
+  line-height: 2;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #2d3248;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
